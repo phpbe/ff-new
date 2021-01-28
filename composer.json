@@ -1,0 +1,23 @@
+{
+    "name": "be/ff-new",
+    "type": "project",
+    "description": "PHP BE 前端框架（Frontend Framework）",
+    "keywords": ["PHP", "Be", "Frontend", "Framework", "前端框架"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "BE团队",
+            "homepage": "http://www.phpbe.com/"
+        }
+    ],
+    "require": {
+        "be/ff": "~2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Be\\Ff\\Cache\\": "cache/",
+            "Be\\Ff\\Data\\": "data/"
+        }
+    }
+}
+
